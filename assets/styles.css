@@ -23,6 +23,8 @@ main{
     margin-top: 30px;
     display: flex;
     justify-content: center;
+   
+
 }
 .inputLista{
     width: 25%;
@@ -38,6 +40,39 @@ main{
     background-color: rgb(26, 26, 84);
     transform: scale(1.1);
 }
+.listasout{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    
+}
+.listasout ol{
+  display: flex;
+  
+
+  text-align: start;
+  margin-right: 150px;
+ 
+  flex-direction: row;
+
+  margin-bottom: 5px;
+  justify-content:space-between;
+
+}
+.listasout button{
+
+    display: flex;
+    
+    align-items: center;
+
+    width:20%;
+    height: 5vh;
+}
+.botComplet{
+    margin-left: 100px;
+}
+
 aside{
     
     justify-content: start;
